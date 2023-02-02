@@ -1,0 +1,31 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+html {
+  overflow: hidden;
+}
+
+.main {
+  max-width: 500px;
+  padding-bottom: 200px;
+}
+
+#amount {
+  outline: none;
+  width: 80%;
+}
